@@ -12,6 +12,6 @@ elif Operator == '-':
 elif Operator == '*':
     print(f'{First} * {Second} =', First * Second)
 else:
-    print(f'{First} / {Second} =', (First/Second))
+    print(f'{First} / {Second} =', (First/Second), end ='')
 
 
