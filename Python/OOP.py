@@ -1,23 +1,27 @@
-class Vehicles :
-    def drive(self):
-        print(f'{self} is moving')
 
+class Vehicles:
+    def __init__(self, model, color, year):
+        self.model = model
+        self.color = color
+        self.year = year
 
-class Boat(Vehicles):
-    Has_wheels = False
-    def drive(self):
-        print('Driving Boat')
+    def moving(self):
+        print('Moving')
 
+class Bike(Vehicles):
+    def moving(self):
+        print (f'You are riding a {self.year} {self.color} {self.model}')
 class Car(Vehicles):
-    Has_wheels = True
-    def drive(self):
-        print('Driving car')
+    def moving(self):
+        print(f'You are driving a {self.year} {self.color} {self.model}')
+class Plane(Vehicles):
+    def moving(self):
+        print(f'You are flying a {self.year} {self.color} {self.model}')
 
+Car1 = Car('Audi', 'red', 2019)
+Bike1 = Bike('Suzuki', 'white',2012)
+Plane1 = Plane('Airbus', 'silver',2006)
 
-boat1 = Boat()
-car1 = Car()
-
-# Call instance methods
-boat1.drive()
-car1.drive()
-
+Car1.moving()
+Bike1.moving()
+Plane1.moving()
