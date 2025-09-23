@@ -5,7 +5,12 @@
     <mapping directory="$PROJECT_DIR$/Databases/wk-1-Ellyj12" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Databases/wk-2-Ellyj12" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Databases/wk-3-Ellyj12" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Databases/wk-4-Ellyj12" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Databases/wk-5-Ellyj12" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python/Python_Libraries" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Web_Development/july-2025-css-layouts-and-responsive-design-Ellyj12" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Web_Development/july-2025-introduction-to-css-Ellyj12" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Web_Development/july-2025-introduction-to-javascript-and-dom-manipulation-Ellyj12" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Web_Development/plp-webtechnologies-classroom-july2025-july-2025-javascript-events-and-basic-interactivity-javascrip" vcs="Git" />
   </component>
 </project>
