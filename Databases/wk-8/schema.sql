@@ -1,3 +1,7 @@
+-- Create the Clinic Database
+CREATE DATABASE Clinic_Database
+
+
 --Patient Table storing information about patients visiting the clinic.
 CREATE TABLE Patients (
     patient_id INT PRIMARY KEY AUTO_INCREMENT, -- Unique ID for each patient
@@ -17,7 +21,7 @@ CREATE TABLE Specializations (
 );
 
 --Doctors Table storing information about doctors working in the clinic.
--- Each doctor belongs to one specialization (One-to-Many relationship with Specializations).
+--Each doctor belongs to one specialization (One-to-Many relationship with Specializations).
 CREATE TABLE Doctors (
     doctor_id INT PRIMARY KEY AUTO_INCREMENT,     -- Unique ID for each doctor
     first_name VARCHAR(50) NOT NULL,             -- Doctor's first name
